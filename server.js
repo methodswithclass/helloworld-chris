@@ -14,7 +14,7 @@ app.use("/", express.static(path.join(__dirname, ".")));
 
 
 
-var listener = app.listen(3003, function () {
+var listener = app.listen(8080, function () {
 
 	console.log("listening on port", listener.address().port);
 });
