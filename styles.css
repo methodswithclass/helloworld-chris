@@ -1,0 +1,28 @@
+.hello {
+
+	position:absolute;
+	height: 200px;
+	width: 80%;
+	top: 100px;
+	border-radius: 20px;
+	background-color: blue;
+	left: 50%;
+	transform: translate(-50%,0);
+
+
+}	
+
+
+
+
+.inner {
+
+	position:absolute;
+	width: 100%;
+	text-align: center;
+	top: 50%;
+	transform: translate(0,-50%);
+	color: white;
+	font-size: 50px;
+	
+}
